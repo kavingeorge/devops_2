@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameHub - Online Video Game Store</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+.navbar-bg {
+background-color: rgb(20, 101, 112);
+height: fit-content;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.logo-container {
+display: flex;
+align-items: center;
+}
+.logo {
+width: auto;
+height: 80px;
+}
+.title {
+text-align: center;
+margin-left: 10px;
+}
+.foot{
+background-color: rgb(17, 92, 102);
+}
+</style>
+</head>
+<body class="bg-gray-100 font-sans">
+<header class="navbar-bg text-white py-4">
+<div class="container mx-auto flex justify-between items-center navbar">
+<nav>
+<a href="about" class="text-lg font-medium mr-4">About Us</a>
+<a href="contact" class="text-lg font-medium mr-4">Contact Us</a>
+</nav>
+<div class="logo-container">
+<img src="https://i.ibb.co/3cYVzsM/logo1.png" alt="Logo" class="h-16 w-16 mr-2">
+<h1 class="text-2xl font-semibold title">GameHub</h1>
+</div>
+<nav>
+<a href="login" class="text-lg font-medium mr-4" id="loginbutton">Login</a>
+<a href="register" class="text-lg font-medium" id="registerbutton">Register</a>
+</nav>
+</div>
+</header>
+<div class="container mx-auto py-8">
+<h2 class="text-3xl font-semibold mb-4">Welcome to GameHub - Your Ultimate Video Game Destination!</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white p-20 rounded-xl shadow-md">
+<img src="https://i.pinimg.com/736x/0d/09/94/0d09940da27440e4d96cedb9e2e06f0f.jpg" alt="Game Image" class="mb-4">
+<h3 class="text-xl font-semibold mb-2">Browse and Purchase Games</h3>
+<p class="text-gray-600">Discover a vast catalog of video games from top developers. Securely purchase and download your favorites.</p>
+</div>
+<div class="bg-white p-20 rounded-xl shadow-md">
+<img src="https://i.pinimg.com/564x/61/52/78/615278f1961e30b199b1da6489738ec6.jpg" alt="Game Image" class="mb-4">
+<h3 class="text-xl font-semibold mb-2">Seller Dashboard</h3>
+<p class="text-gray-600">Developers and publishers can manage their games, submit for approval, and track sales.</p>
+</div>
+<div class="bg-white p-20 rounded-xl shadow-md">
+<img src="https://i.pinimg.com/564x/7e/eb/ef/7eebefe32d71643245f5a9a813c6cd35.jpg" alt="Game Image" class="mb-4">
+<h3 class="text-xl font-semibold mb-2">Admin Approvals</h3>
+<p class="text-gray-600">Administrators oversee game approvals, manage users, and ensure platform quality.</p>
+</div>
+</div>
+</div>
+<footer class="bg-gray-900 text-white py-4 foot">
+<div class="container mx-auto text-center">
+<p>&copy; 2024 GameHub - Online Video Game Store. All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>
