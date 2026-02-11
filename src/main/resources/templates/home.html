@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - GameHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100">
+    <nav class="bg-teal-600 p-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <a href="/" class="text-white mr-4"><i class="fas fa-arrow-left"></i></a>
+        </div>
+        <div class="flex items-center">
+            <img src="https://i.ibb.co/3cYVzsM/logo1.png" alt="Logo" class="h-16 w-16 mr-2">
+            <h1 class="text-white text-2xl font-semibold">GameHub</h1>
+        </div>
+        <div class="flex items-center">
+            <a href="/profile" class="text-white ml-4">
+                <img src="https://i.postimg.cc/65NtD2ff/profile-Photoroom-png-Photoroom.png" class="h-8 w-8 mr-2">
+            </a>
+            <a href="/" class="text-white"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </nav>
+    <div class="container mx-auto flex flex-col lg:flex-row mt-8 px-4">
+        <div class="w-full lg:w-1/2">
+            <img src="https://reviso-wordpress-sites.s3.amazonaws.com/uploads/sites/2/inventory-management-blog.png" alt="Image" class="w-full h-64 lg:h-full">
+        </div>
+        <div class="w-full lg:w-2/3 flex justify-center items-center mt-4 lg:mt-0">
+            <div class="text-center">
+                <div class="bg-teal-600 py-8 px-10 rounded-lg mb-4 h-full flex flex-col justify-center">
+                    <div class="bg-white rounded p-4">
+                        <a href="/games" class="block text-teal-600 font-semibold hover:bg-gray-200 py-2 px-4 rounded mb-2">Browse Games</a>
+                        <a href="/cart" class="block text-teal-600 font-semibold hover:bg-gray-200 py-2 px-4 rounded mb-2">Cart</a>
+                        <a href="/orders" class="block text-teal-600 font-semibold hover:bg-gray-200 py-2 px-4 rounded">My Orders</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .bg-teal-600 { background-color: rgb(20,101,112); }
+        .text-teal-600 { color: rgb(20,101,112); }
+        .hover\:bg-gray-200:hover { background-color: rgb(175, 217, 223); }
+        body { overflow: hidden; }
+    </style>
+</body>
+</html>
